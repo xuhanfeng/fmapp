@@ -1,0 +1,392 @@
+.home{
+	wdith:100%;
+	height:100%;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+.header{
+	width:100%;
+	height:.9rem;
+	background:#f84e4e;
+		p{
+			width:100%;
+			height:100%;
+			display:-webkit-flex;
+		}
+		input{
+			-webkit-flex-grow:1;
+			height:.55rem;
+			background:#d24241;
+			margin-top:.15rem;
+			border:none;
+			outline:none;
+			margin-left:.15rem;
+			border-radius:15px;
+		}
+			b{
+				width:.99rem;
+				height:100%;
+				float:right;
+				margin-right:.27rem;
+			}
+			b:after{
+				display:inline-block;
+				content:"\e64c";
+				color:#fff;
+				font-size:.5rem;
+				text-align:center;
+				line-height:.9rem;
+				float:right;
+			}
+}
+.nav{
+	width:100%;
+	height:.97rem;
+	display:-webkit-flex;
+	font-family:'Microsoft YaHei';
+		a{
+			-webkit-flex-grow:1;
+			font-size:.3rem;
+			text-align:center;
+			line-height:.97rem;
+			color:#666;
+		}
+		.active{
+			color:#f84e4e;
+			border-bottom:1px solid #f84e4e;
+		}
+}
+.box{
+	width:100%;
+	-webkit-flex-grow:1;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+		.swiper-container{
+			width:100%;
+			display:-webkit-flex;
+			-webkit-flex-grow:1;
+		}
+		.swiper-wrapper{
+			width:100%;
+			display:-webkit-flex;
+			-webkit-flex-grow:1;
+		}
+		.swiper-slide{
+			width:100%;
+			height:100%;
+			-webkit-flex-grow:1;
+			-webkit-flex-shrink:0;
+			overflow:hidden;
+		}
+}
+.m_nav{
+	width:100%;
+	height:2.82rem;
+	position:relative;
+	margin-bottom:.25rem;
+	img{
+		width:100%;
+		height:100%;
+	}
+}
+.list{
+	width:100%;
+	height:1.59rem;
+	margin-top:.28rem;
+	margin-bottom:.3rem;
+		ul{
+			width:100%;
+			height:100%;
+			display:-webkit-flex;
+				li{
+					-webkit-flex-grow:1;
+						img{
+							width:90%;
+							height:100%;
+							margin-left:3%;
+						}
+				}
+		}
+}
+.kolao{
+	width:100%;
+	height:.31rem;
+	display:-webkit-flex;
+	dt{
+		width:1.48rem;
+		height:.31rem;
+		margin-right:.5rem;
+		padding-left:5%;
+			img{
+				width:100%;
+				height:100%;
+			}
+	}
+	dd{
+		color:#333;
+		line-height:.31rem;
+		font-size:.2rem;
+	}
+}
+.today{
+	width:100%;
+	height:.55rem;
+	line-height:.55rem;
+	font-size:.32rem;
+	color:#333;
+	padding:5%;
+	border-bottom:1px solid #ccc;
+}
+.relax{
+	width:100%;
+	height:auto;
+	margin-top:.33rem;
+	display:-webkit-flex;
+		a{
+			-webkit-flex-grow:1;
+			text-align:center;
+			color:#000;
+			img{
+				width:95%;
+				height:2.2rem;
+			}
+			p{
+				texta-align:center;
+			}
+		}
+}
+/*--------------鍒嗙被-----------------*/
+.tuo{
+	width:90%;
+	height:2.97rem;
+	display:-webkit-flex;
+	margin-left:5%;
+	margin-top:.32rem;
+		div{
+			-webkit-flex-grow:1;
+		}
+}
+.left{
+	width:100%;
+	height:100%;
+	background:#f1ad52;
+	text-align:center;
+		.er{
+			margin-top:.69rem;
+
+		}
+		.er:after{
+			width:100%;
+			content:'\e65e';
+			color:#fff;
+			font-size:.87rem;
+		}
+}
+.right{
+	width:100%;
+	height:100%;
+	background:#ccc;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+		div{
+			-webkit-flex-grow:1;
+			width:100%;
+		}
+}
+.pai{
+	background:#ad7dd0;
+	border-bottom:2px solid #fff;
+	border-left:2px solid #fff;
+	text-align:center;
+		.er{
+			
+
+		}
+		.er:after{
+			width:100%;
+			content:'\e732';
+			color:#fff;
+			font-size:.8rem;
+		}
+}
+.re{
+	background:#cc504e;
+	border-bottom:2px solid #fff;
+	border-left:2px solid #fff;
+	text-align:center;
+	.er{
+			
+
+		}
+		.er:after{
+			width:100%;
+			content:'\e7ba';
+			color:#fff;
+			font-size:.58rem;
+		}
+}
+.boring{
+	width:90%;
+	height:1.53rem;
+	border-top:2px solid #fff;
+	display:-webkit-flex;
+	margin-left:5%;
+		a{
+			-webkit-flex-grow:1;
+			boder-right:2px solid #fff;
+			color:#fff;
+			p{
+				font-size:.39rem;
+				color:#fff;
+				margin-top:.27rem;
+				margin-left:.17rem;
+			}
+			span{
+				font-size:.29rem;
+				margin-top:.2rem;
+				margin-right:.15rem;
+				display:inline-block;
+				float:right;
+			}
+		}
+		a:nth-of-type(1){
+			background:#30b2b4;
+			p:after{
+				content:'\e616';
+			}
+		}
+		a:nth-of-type(2){
+			background:#87bc46;
+			p:after{
+				content:'\e66e';
+			}
+		}
+		a:nth-of-type(3){
+			background:#dc659b;
+			p:after{
+				content:'\e732';
+			}
+		}
+		a:nth-of-type(4){
+			background:#ca7453;
+			border-right:none;
+			p:after{
+				content:'\e621';
+			}
+		}
+}
+.fen{
+	width:100%;
+	height:.77rem;
+	line-height:.77rem;
+	color:#333;
+	text-indent:5%;
+	margin-top:.2rem;
+}
+.news{
+	width:100%;
+	height:auto;
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+		a{
+			-webkit-flex-grow:1;
+			width:25%;
+			height:1.66rem;
+			text-align:center;
+			color:#333;
+			p{
+				font-size:.56rem;
+				
+				margin-top:.45rem;
+			}
+			span{
+				font-size:.29rem;
+				margin-top:.2rem;
+				display:inline-block;
+			}
+		}
+}
+/*------------主播----------*/
+
+.tp{
+	width:100%;
+	height:2.8rem;
+	margin-bottom:.4rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+}
+.huan{
+	width:100%;
+	height:auto;
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+		dl{
+			width:33%;
+			-webkit-flex-grow:1;
+			height:3.29rem;
+			margin-top:.36rem;
+				dt{
+					width:1.83rem;
+					height:2.37rem;
+					margin-left:.3rem;
+						img{
+							width:100%;
+							height:100%;
+						}
+				}
+				dd{
+					text-align:center;
+					color:#333;
+				}
+		}
+}
+/*--------------电台-------------*/
+.tb{
+	width:100%;
+	height:1.72rem;
+	display:-webkit-flex;
+	text-align:center;
+		b{
+			display:inline-block;
+			width:1.08rem;
+			height:1.08rem;
+			text-align:center;
+			border:1px solid #f84e4e;
+			border-radius:50%;
+			font-size:.58rem;
+			line-height:1.08rem;
+			color:#f84e4e;
+			margin-left:8%;
+		}
+}
+.table{
+	width:100%;
+	height:auto;
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+		li{
+			width:25%;
+			text-align:center;
+			height:1.26rem;
+			line-height:1.26rem;
+			-webkit-flex-grow:1;
+			color:#333;
+			font-size:.3rem;
+		}
+		li:last-child:after{
+			content:"\e611";
+			color:#f84e4e;
+		}
+}
+.zhi{
+	width:100%;
+	height:.7rem;
+	text-indent:5%;
+	color:#333;
+	line-height:.7rem;
+	border-bottom:1px solid #ccc;
+	font-size:.3rem;
+	
+}

@@ -1,0 +1,45 @@
+@import "../core/common";
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.m-container{
+	@include flexbox();
+	@include flex-direction(column);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	.m-container{
+		position: relative;
+		@include flex;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+	.footer{
+		width: 100%;
+		height: .44rem;
+		border-top: 1px solid #B2B2B2;
+		@include flexbox;
+		background: #F6F6F6;
+		font-size: .12rem;
+		color: #212121;
+		box-sizing:border-box;
+		padding-top: .02rem;
+		a{
+			@include flex;
+			text-align: center;
+			color: #80919E;
+			i,span{
+				display: block;
+			}
+			i{
+				font-size: .17rem;
+			}
+		}
+		.active{
+			color: #FF7D7D;
+		} 
+	}
+}

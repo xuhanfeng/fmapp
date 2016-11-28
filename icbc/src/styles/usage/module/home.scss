@@ -1,0 +1,47 @@
+.home-container{
+	@include flexbox;
+	@include flex-direction(column);
+	width: 100%;
+	height: 100%;
+	.header{
+		width: 100%;
+		height: .44rem;
+		background: #F9D897;
+	}
+	.home-content{
+		@include flex;
+					@include flexbox;
+					@include flex-direction(column);
+		width: 100%;
+		.guide{
+			-webkit-flex-shrink:0;
+			width: 100%;
+			height: 1.5rem;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	 	.main{
+			width: 100%;
+			ul{
+				width: 100%;
+				height: 100%;
+				li{
+					@include flexbox;
+					 p{
+						@include flex;
+						height: .85rem;
+						border-right: 1px solid #ccc;
+						border-bottom: 1px solid #ccc;
+						background: #fff;
+						text-align: center;
+						line-height: .85rem;
+						color: #607483; 
+					} 
+				}
+			}
+		} 
+	}
+
+}

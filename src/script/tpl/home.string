@@ -1,0 +1,164 @@
+<div class='home'>
+	<header class='header'>
+		<p><input type="text" placeholder='　　人、节目，专辑'><b class='yo-ico'></b></p>
+	</header>
+	<nav class='nav'>
+		<a href="javascript:;" class='active'>推荐</a>
+		<a href="javascript:;">分类</a>
+		<a href="javascript:;">电台</a>
+		<a href="javascript:;">直播</a>
+		<a href="javascript:;">主播</a>
+	</nav>
+	<div class='box'>
+		<div class='swiper-container wrap' id='wrap'>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class='m_nav swiper-container' id='m_nav'>
+							<ul class='swiper-wrapper'>
+								<li class='swiper-slide'><img src="../images/5.jpg" alt=""></li>
+								<li class='swiper-slide'><img src="../images/6.jpg" alt=""></li>
+								<li class='swiper-slide'><img src="../images/7.jpg" alt=""></li>
+								<li class='swiper-slide'><img src="../images/8.jpg" alt=""></li>
+							</ul>
+					</div>
+						<div class='list'>
+							<ul>
+								<li><img src="../images/1.png" alt=""></li>
+								<li><img src="../images/1.png" alt=""></li>
+								<li><img src="../images/1.png" alt=""></li>
+								<li><img src="../images/1.png" alt=""></li>
+							</ul>				
+						</div>
+						<dl class='kolao'>
+							<dt><img src="images/2.png" alt=""></dt>
+							<dd>咪咕善跑&考拉FM助威欧洲杯有的无敌基间...</dd>
+						</dl>
+						<p class='today'>今日必听</p>
+						<div class='relax'>
+							<a href="javascrpt:;"><img src="../images/3.png" alt=""><p>等到风景都看透谁会 陪你看细水长流</p></a>
+							<a href="javascrpt:;"><img src="../images/3.png" alt=""><p>你是我的幸福吗？</p></a>
+							<a href="javascrpt:;"><img src="../images/3.png" alt=""><p>工作压力大我们一起 来解压吧</p></a>
+						</div>
+					</div>
+								<div class="swiper-slide">									
+									<div class='tuo'>
+										<div class='left'>
+											<p class='yo-ico er'></p>
+											<span>王牌脱口秀</span>
+										</div>
+										<div class='right'>
+											<div class='pai'>
+												<p class='yo-ico er'></p>
+												<span>排行榜</span>
+											</div>
+											<div class='re'>
+												<p class='yo-ico er'></p>
+												<span>热点专题</span>
+											</div>
+										</div>
+									</div>
+									<div class='boring'>
+										<a href="javascript:;"><p class='yo-ico'></p><span>搞笑</span></a>
+										<a href="javascript:;"><p class='yo-ico'></p><span>小说</span></a>
+										<a href="javascript:;"><p class='yo-ico'></p><span>情感</span></a>
+										<a href="javascript:;"><p class='yo-ico'></p><span>经典</span></a>
+									</div>
+									<p class='fen'>分类</p>
+									<div class='news'>
+										<a href="javascript:;"><p class='yo-ico'>&#xe74d;</p><span>新闻</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe660;</p><span>音乐</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe628;</p><span>财经</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe620;</p><span>外语</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe74d;</p><span>新闻</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe660;</p><span>音乐</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe628;</p><span>财经</span></a>
+										<a href="javascript:;"><p class='yo-ico'>&#xe620;</p><span>外语</span></a>
+									</div>
+								</div>
+								<div class="swiper-slide" >
+									<div class='tp'>
+										<img src="../images/6.png" alt="">
+									</div>
+									<div class='tb'>
+										<b class='yo-ico'>&#xe649;</b>
+										<b class='yo-ico'>&#xe751;</b>
+										<b class='yo-ico'>&#xe760;</b>
+										<b class='yo-ico'>&#xe616;</b>
+									</div>
+									<ul class='table'>
+										<li>国家台</li>
+										<li>省市台</li>
+										<li>网络台</li>
+										<li>智能台</li>
+										<li>交通台</li>
+										<li>经济台</li>
+										<li>新闻台</li>
+										<li>音乐台</li>
+										<li>校园台</li>
+										<li>娱乐台</li>
+										<li>方言台</li>
+										<li class='yo-ico'></li>
+									</ul>
+									<p class='zhi'>智能精选</p>
+								</div>
+								<div class="swiper-slide">
+									
+								</div>
+								<div class="swiper-slide">
+									<div class='tp'>
+										<img src="../images/5.jpg" alt="">
+									</div>
+									<dl class='kolao'>
+										<dt><img src="images/2.png" alt=""></dt>
+									<dd>咪咕善跑&考拉FM助威欧洲杯有的无敌基间...</dd>
+								</dl>
+									<p class='today'>人气主播</p>
+									<div class='huan'>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+										<dl class='wu'>
+											<dt><img src="images/5.png" alt=""></dt>
+											<dd>
+												<p>王刚大</p>
+												<span>严肃的搞笑</span>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+</div>

@@ -1,0 +1,9 @@
+<div class='container'>
+	<div class="content">
+	</div>
+	<footer class='footer'>
+		<a href="javascript:;" class='active'><span class='yo-ico'>&#xe753;</span>发现</a>
+		<a href="javascript:;" action-type='go.mine' data-tag="mine"><span class='yo-ico'>&#xe649;</span>我的</a>
+		<a href="javascript:;"><span class='yo-ico'>&#xe614;</span>离线</a>
+	</footer>
+</div>
