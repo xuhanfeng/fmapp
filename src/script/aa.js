@@ -9,7 +9,7 @@ SPA.defineView('index',{
 	modules:[{
 		name:'content',
 		views:["home","mine"],
-		defaultTag:'mine',
+		defaultTag:'home',
 		container:'.content',
 	}],
 	bindEvents:{
